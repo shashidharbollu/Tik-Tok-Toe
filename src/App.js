@@ -1,11 +1,10 @@
-
-import './App.css';
-import TicTacToe from './TicTacToe';
+import "./App.css";
+import TicTacToe from "./TicTacToe";
 
 function App() {
   return (
     <center>
-      <TicTacToe/>
+      <TicTacToe />
     </center>
   );
 }
