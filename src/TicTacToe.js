@@ -44,7 +44,7 @@ const TicTacToe = () => {
 
     };
     const handleClick =(num) => {
-        if (cells [num] !== ''){
+        if (cells[num] !== ''){
             alert('already clicked!')
             return;
         }
