@@ -43,12 +43,12 @@ const TicTacToe = () => {
         };
 
     };
-    const handleClick = (num) => {
+    const handleClick =(num) => {
         if (cells [num] !== ''){
             alert('already clicked!')
             return;
         }
-        let squares= [...cells];
+        let squares=[...cells];
 
         if(turn === 'x'){
             squares[num] = 'x';
